@@ -1,0 +1,93 @@
+.burger {
+display: block;
+text-align: center;
+z-index: 10;
+}
+
+.burger a {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+}
+
+.main-nav {
+    text-align: center;
+    margin: auto;
+  }
+  
+
+.navbar-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 2em;
+    color: white;
+    position: absolute;
+    z-index: 5;
+    left: 0.2em;
+    margin-top: -3.2%;
+    
+}
+
+/*icone hamburger animee en css*/
+.bar1, .bar2, .bar3{
+    width:35px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    margin: 6px 0px;
+    transition: 0.4s;
+    display: flex;
+}
+.change .bar1{
+    transform: rotate(-45deg) translate(-9px, 7px);
+    
+    background-color: rgb(130, 9, 9);
+    outline: rgb(131, 8, 8) auto;
+}
+
+.change .bar2{
+    opacity: 0;   
+}
+
+.change .bar3 {
+    transform: rotate(45deg) translate(-8px, -7px);
+    background-color: rgb(207, 36, 36);
+    outline: rgb(207, 36, 36) auto;
+}
+/* tablette */
+@media screen and (min-width: 768px) and (max-width:980px) {
+    .burger{
+        justify-content: space-between;
+
+    }
+}
+
+/* cellulaire */
+@media screen and (min-width: 320px) and (max-width:768px) {
+    .navbar-toggle {
+        justify-content: space-between;
+        display: block;
+    }
+/* cacher le menu */
+.burger {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    margin-top: 9.8%;
+    width: 4768px;
+    z-index: 10;
+    top:100px;
+}
+
+    .active{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}

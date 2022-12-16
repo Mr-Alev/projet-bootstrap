@@ -1,0 +1,154 @@
+body{
+    background-color: #181b1e;
+    overflow-x: hidden;
+
+}
+
+header{
+    max-height: 80vh;
+    width: 100%;
+}
+
+.margin{
+    margin-right:35px;
+
+}
+
+.fa-keyboard{
+    size: 2em;
+}
+.dropdownButton{
+    margin-top: 6%;
+    background: #212529;
+    color: #ffffff;
+    text-decoration-color: #1e73c8;
+    
+}
+.container .carousel-indicators button {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+
+}
+.carousel-control-prev-icon{
+    background-color: #000000;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.card-text{
+    color: rgb(37, 37, 37);
+}
+.card-title{
+    color: black;
+}
+.card-img-top{
+    border-radius: 2%;
+    height: 200px;
+    width: 286px;
+}
+
+.carousel-control-next-icon{
+    background-color: #000000;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.pT{
+    font-size: 25px;
+    text-align: left;
+    padding-left: 25px;
+    font-weight: bold;
+}
+.h1P{
+    color: aliceblue;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 50px;
+
+}
+.bigTitle{
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+.witdhControl{
+    width: 300px;
+    margin: auto;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.progress {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #4f585f;
+    border-radius: .55rem;
+    margin: 20px;
+}
+.bd-example {
+    position: relative;
+    border-width: 1px 0 0;
+}
+.dabox{
+    background-color: #212023;
+    margin-left: 25%;
+    margin-right: 20%;
+    min-width: 420px;
+    max-width: 900px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 15px;
+    border-radius: 8%;
+}
+
+.left{
+    text-align: left;
+}
+.bd-example>.nav+.nav, .bd-example>.alert+.alert, .bd-example>.navbar+.navbar, .bd-example>.progress+.progress {
+    margin-top: 1rem;
+}
+
+img{
+    margin-top: 5px;
+}
+
+.gitgud{
+    margin-top: 0px;
+    height: 50px;
+    width: auto;
+
+}
+
+.fa-discord{
+   color:#5865f2;
+}
+
+.fa-paypal{
+    color:#3b7bbf;
+ }
+
+ .fa-github{
+    color: #6e5494;
+ }
+
+
+ .copyright{
+ color:lightskyblue;
+ font-size: 12px;
+ }
+
+ .fa-desktop{
+    color: rgb(128, 115, 216);
+ }
+ .fa-windows{
+    color: #00adef;
+ }
+ .fa-keyboard{
+    color: rgb(183, 96, 205);
+ }
